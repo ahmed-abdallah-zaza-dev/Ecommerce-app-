@@ -14,6 +14,31 @@ For complete guidelines and technical guides, refer to the dedicated documentati
 
 ---
 
+## 📱 Screenshots
+
+<div align="center">
+  <h4>Discover & Catalogue</h4>
+  <img src="screenshots/discover_beauty.jpg" width="280" alt="Discover Beauty" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/discover_all.jpg" width="280" alt="Discover All" />
+  
+  <br/><br/>
+  
+  <h4>Profile & Account</h4>
+  <img src="screenshots/profile_menu.jpg" width="280" alt="Profile Menu" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/profile_with_logout.jpg" width="280" alt="Profile Logout" />
+  
+  <br/><br/>
+  
+  <h4>Checkout & Payments</h4>
+  <img src="screenshots/checkout_cod.jpg" width="280" alt="Checkout COD" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/checkout_wallet.jpg" width="280" alt="Checkout Wallet" />
+</div>
+
+---
+
 ## 🚀 Key Highlights
 
 *   **Secure Persistent Authentication**: Fully integrates secure local cache encryption with native Firebase Auth sessions.

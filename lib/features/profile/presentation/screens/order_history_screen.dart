@@ -67,7 +67,7 @@ class OrderHistoryScreen extends StatelessWidget {
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                           decoration: BoxDecoration(
-                            color: _getStatusColor(order['status']).withOpacity(0.1),
+                            color: _getStatusColor(order['status']).withValues(alpha: 0.1),
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Text(
@@ -155,7 +155,7 @@ class OrderHistoryScreen extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                     decoration: BoxDecoration(
-                      color: _getStatusColor(order['status']).withOpacity(0.12),
+                      color: _getStatusColor(order['status']).withValues(alpha: 0.12),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Text(
@@ -281,7 +281,7 @@ class OrderHistoryScreen extends StatelessWidget {
                   color: isCompleted
                       ? Colors.green
                       : isActive
-                          ? Colors.blue.withOpacity(0.3)
+                          ? Colors.blue.withValues(alpha: 0.3)
                           : Colors.transparent,
                   width: 4,
                 ),

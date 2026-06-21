@@ -93,7 +93,7 @@ class _OnlinePaymentScreenState extends State<OnlinePaymentScreen> {
                   boxShadow: isSelected
                       ? [
                           BoxShadow(
-                            color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+                            color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
                             blurRadius: 10,
                             offset: const Offset(0, 4),
                           )
@@ -107,7 +107,7 @@ class _OnlinePaymentScreenState extends State<OnlinePaymentScreen> {
                       item['icon'] as IconData,
                       color: isSelected
                           ? Colors.white
-                          : Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+                          : Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
                       size: 20,
                     ),
                     const SizedBox(width: 8),
@@ -373,7 +373,7 @@ class _OnlinePaymentScreenState extends State<OnlinePaymentScreen> {
           child: Row(
             children: [
               CircleAvatar(
-                backgroundColor: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                backgroundColor: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
                 child: Icon(Icons.location_on_outlined, color: Theme.of(context).colorScheme.primary),
               ),
               const SizedBox(width: 16),
